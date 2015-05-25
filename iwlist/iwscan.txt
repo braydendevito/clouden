@@ -1,0 +1,12 @@
+Name                 Address             Quality   Signal   Channel   Encryption  
+Quiana               CC:03:FA:AF:83:6C   100 %      97 %    1         WPA2        
+PaintItOrangeDucks   08:86:3B:4B:09:AE   100 %      62 %    1         WPA2        
+Antimatter           AC:B3:13:8B:36:30   100 %      96 %    1         WPA2        
+TC8717T43            B0:C2:87:3F:67:49   100 %      46 %    1         WPA2        
+pikarich2006         20:4E:7F:11:B3:19   100 %      62 %    6         WPA2        
+lily anna            CC:A4:62:3E:54:70   100 %      84 %    6         WPA2        
+Dilly59              9C:D3:6D:A1:E7:F9   100 %      44 %    7         WPA2        
+zaragoza1            90:1A:CA:E0:71:50   100 %      64 %    11        WPA2        
+Palkimawar           14:AB:F0:C8:CA:A0    75 %      43 %    11        WPA2        
+HOME                 E0:46:9A:34:E6:8C    40 %      51 %    11        WPA v.1     
+NETGEAR16            A4:2B:8C:D3:4C:2B    19 %      46 %    9         WPA2        

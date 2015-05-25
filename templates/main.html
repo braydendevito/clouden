@@ -12,44 +12,139 @@
   </div>
   <div data-role="main" class="ui-content">
 <center>
-<img src="{{ url_for('static', filename='logo.png')}}" width="100%">
+<img src="{{ url_for('static', filename='logo.png')}}" width="70%">
+<br>
+<br>
+
 <h1 class="close">Wi-Fi Configuration</h1>
 
 </center>
     <div class="CSSTableGenerator">
 <table>
 <tbody>
-<tr><td><h2 class="close"><a href="#pagetwo" data-transition="flip">
-Quiana        
+<tr><td><h2 class="close"><a href="#one" data-transition="flip">
+Quiana
 </a>
-<tr><td><h2 class="close"><a href="#pagetwo" data-transition="flip">
-PaintItOrangeD
+<tr><td><h2 class="close"><a href="#two" data-transition="flip">
+PaintItOrangeDucks
 </a>
-<tr><td><h2 class="close"><a href="#pagetwo" data-transition="flip">
-Antimatter    
+<tr><td><h2 class="close"><a href="#three" data-transition="flip">
+Antimatter
 </a>
-<tr><td><h2 class="close"><a href="#pagetwo" data-transition="flip">
-zaragoza1     
+<tr><td><h2 class="close"><a href="#four" data-transition="flip">
+zaragoza1
 </a>
-<tr><td><h2 class="close"><a href="#pagetwo" data-transition="flip">
-Palkimawar    
+<tr><td><h2 class="close"><a href="#five" data-transition="flip">
+Palkimawar
 </a>
 </tbody>
 </table>
 </div>
   </div>
 </div> 
-<div data-role="page" data-dialog="true" id="pagetwo">
+<div data-role="page" data-dialog="true" id="one">
   <div data-role="header">
-    <h1>Wi-Fi name</h1>
+    <h1>
+Quiana
+</h1>
   </div>
   <div data-role="main" class="ui-content">
     <p>Please enter your Wi-Fi password.
 <br><br>
-<input class="textbox" type="input">
+
+<form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.password }}
+        <input type="submit" value="CONNECT"/>
+    </form>
 
 
     </div>
 </div> 
 </div>
+<div data-role="page" data-dialog="true" id="two">
+  <div data-role="header">
+    <h1>
+PaintItOrangeDucks
+</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Please enter your Wi-Fi password.
+<br><br>
+
+<form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.password }}
+        <input type="submit" value="CONNECT"/>
+    </form>
+
+
+    </div>
+</div> 
+</div>
+<div data-role="page" data-dialog="true" id="three">
+  <div data-role="header">
+    <h1>
+Antimatter
+</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Please enter your Wi-Fi password.
+<br><br>
+
+<form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.password }}
+        <input type="submit" value="CONNECT"/>
+    </form>
+
+
+    </div>
+</div> 
+</div>
+<div data-role="page" data-dialog="true" id="four">
+  <div data-role="header">
+    <h1>
+zaragoza1
+</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Please enter your Wi-Fi password.
+<br><br>
+
+<form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.password }}
+        <input type="submit" value="CONNECT"/>
+    </form>
+
+
+    </div>
+</div> 
+</div>
+
+
+<div data-role="page" data-dialog="true" id="five">
+  <div data-role="header">
+    <h1>
+Palkimawar
+</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Please enter your Wi-Fi password.
+<br><br>
+
+<form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.password }}
+        <input type="submit" value="CONNECT"/>
+    </form>
+
+
+    </div>
+</div> 
+</div>
+
+
+
 </html>
